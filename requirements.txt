@@ -1,0 +1,9 @@
+# Compatibility ranges, not a fully verified dependency lock.
+# Local Phase 1 tests: pydantic 2.13.5, python-dotenv 1.2.2, pytest 9.0.2.
+# Full installation and live SDK verification still need to run on your machine.
+streamlit>=1.40,<2
+PyMuPDF>=1.26,<2
+pydantic>=2.10,<3
+openai>=2.0,<4
+python-dotenv>=1.0,<2
+pytest>=8,<10
